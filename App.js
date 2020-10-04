@@ -3,7 +3,7 @@ import * as Font from 'expo-font';
 import Home from './screens/home';
 import { StyleSheet, View, Text } from 'react-native';
 import { AppLoading } from 'expo';
-import { AppNavigator } from './routes/appNavigator';
+import { AppNavigator } from './routes/drawer';
 
 const getFonts = () => Font.loadAsync({
   'nunito-regular': require('./assets/fonts/Nunito-Regular.ttf'),
